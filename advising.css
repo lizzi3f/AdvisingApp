@@ -9,12 +9,7 @@ header p {
     font-size:          20px;
     color:              #8f0000;
     font-weight:        bold;
-    float:              left;
-}
-
-nav {
-    position:           relative;
-    width:              100%;
+    display:            inline-block;
 }
 
 nav ul {
@@ -22,7 +17,7 @@ nav ul {
 }
 
 nav ul li {
-    float:              left;
+    display:            inline;
     list-style:         none;
     position:           relative;
     border-right:       1px solid black;
