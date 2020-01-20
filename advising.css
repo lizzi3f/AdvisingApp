@@ -21,6 +21,7 @@ nav ul li {
     list-style:         none;
     position:           relative;
     border-right:       1px solid black;
+    padding-right:      4px;
 }
 
 nav ul li:last-child {
