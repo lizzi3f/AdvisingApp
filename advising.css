@@ -12,6 +12,24 @@ header p {
     display:            inline-block;
 }
 
+h1 {
+    margin-left:        20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;    
+}
+
+h2 {
+    margin-left:        20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    font-size:          20px;
+    color:              #8f0000;
+}
+
+#email {
+    margin-left:        20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    font-size:          15px;
+}
+
 nav ul {
     float:              right;
 }
