@@ -100,8 +100,16 @@ td, th {
     padding:            8px;
 }
 
-tr:nth-child(even) {
+#schedule tr:nth-child(even) {
     background-color:   #dddddd;
+}
+
+#courseSearchTable tr td{
+    text-align:         right;
+}
+
+.cstTitle {
+    font-weight:        bold;
 }
 
 footer {
