@@ -2,49 +2,26 @@
 <html lang= en-us >
 	<head>
     	<meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="advising.css">
+    	<link rel="stylesheet" type="text/css" href="CSS/advising.css">
+        <link rel="stylesheet" type="text/css" href="CSS/media.css">
   	</head> 
   	<body>
 	  	<header>
 	  		<nav>
-		  		<p>Better Lions Den</p>
-		  		<ul>
-		  			<li><a href= "index.html">Home</a></li>
-		  			<li><a href= "coursesearch.html">Course Search</a></li>
-		  			<li><a href= "myacademics.html">My Academics</a></li>
-		  			<li><a href= "index.html" class = "logout">Logout</a></li>
-				</ul>
+		  		<p>Molloy Advising</p>
+		  		<div class="container">
+                    <div id="menu-icon"><img alt="menu" src="menuicon.png" width=40px height=40px></div>
+                    <div class="dropdown-content">
+                        <a href= "index.html">Home</a>
+                        <a href= "coursesearch.html">Course Search</a>
+                        <a href= "myacademics.html">My Academics</a>
+                        <a href= "logout.html" class="logout">Logout</a>
+                    </div>
+				</div>
 			</nav>
 	  	</header>
-	  	<div class="column" class="left">
-			<table id="schedule">
-			  <tr>
-			    <th>Course</th>
-			    <th>Title</th>
-			    <th>Meets</th>
-			  </tr>
-			  <tr>
-			    <td>CSC 2002</td>
-			    <td>Schanker gives an A</td>
-			    <td>12:15 p.m - 1:40 p.m</td>
-			  </tr>
-			  <tr>
-			    <td>HSL 3000</td>
-			    <td>Livin Like Schanker</td>
-			    <td>12:00 a.m - 12:00 a.m</td>
-			  </tr>
-			  <tr>
-			    <td>MMD 890</td>
-			    <td>Torture Shanker Style</td>
-			    <td>5:00 p.m - 6:50 p.m</td>
-			  </tr>
-			  <tr>
-			  	<td>FOO 042</td>
-			    <td>The Meaning of Life</td>
-			    <td>4:20 p.m - 10:24 p.m</td>
-			  </tr>
-			</table>	
-		</div>
+        <h1>Home</h1>
+        <h2>Course Schedule</h2>
 	  	<div class="column" class="right">
 			<ul id="list1">
 				<li>Advisor: <a href = "schanker.html">Dr. Jason Schanker</a></li>
@@ -52,6 +29,40 @@
 				<li>Minor: Computer Information Systems</li>
 			</ul>
 	  	</div>
+	  	<div class="column" class="left">
+			<table id="schedule">
+			  <tr>
+			    <th>Course</th>
+			    <th>Title</th>
+			    <th>Start</th>
+                <th>End</th>
+			  </tr>
+			  <tr>
+			    <td>CSC 3230 01</td>
+			    <td>Assembly Language</td>
+			    <td>3:25 PM</td>
+                <td>4:50 PM</td>
+			  </tr>
+			  <tr>
+			    <td>CSC 4600 01</td>
+			    <td>Internship I</td>
+			    <td>5:00 PM</td>
+                <td>6:25 PM</td>
+			  </tr>
+			  <tr>
+			    <td>CSC 4900 01</td>
+			    <td>Capstone Seminar</td>
+			    <td>12:15 PM</td>
+                <td>1:40 PM</td>
+			  </tr>
+			  <tr>
+			  	<td>MAT 2310 01</td>
+			    <td>Discrete Math CS</td>
+			    <td>12:15 PM</td>
+                <td>1:40 PM</td>
+			  </tr>
+			</table>	
+		</div>
 	  	<footer>
 			<p>&copy Molloy</p>
 		</footer>	
