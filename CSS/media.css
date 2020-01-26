@@ -54,7 +54,7 @@
         list-style:         none;
         position:           relative;
         border-right:       1px solid black;
-        padding-right:      4px; /* centers hover */
+        padding-right:      8px; /* centers hover */
     }
 
     .dropdown-content .logout {
